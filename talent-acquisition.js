@@ -2,7 +2,7 @@ const fs = require("fs");
 const nodemailer = require("nodemailer");
 
 // Read the file
-fs.readFile("list-3.txt", "utf8", (err, data) => {
+fs.readFile("./quebec-hr-talent-acqui/list-5.txt", "utf8", (err, data) => {
   if (err) {
     console.error(err);
     return;
@@ -54,7 +54,7 @@ fs.readFile("list-3.txt", "utf8", (err, data) => {
     port: 465,
     auth: {
       user: "contact@naceur-abdeljalil.com", // your gmail address
-      pass: "", // your gmail password
+      pass: "1", // your gmail password
     },
   });
 
